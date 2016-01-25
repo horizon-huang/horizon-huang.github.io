@@ -232,6 +232,240 @@
             
               
                 
+                <a class="post-title-link" href="/2016/01/25/pygame-install/" itemprop="url">
+                  Mac OS X 10.x下安装Pygame
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2016-01-25T17:14:15+08:00" content="2016-01-25">
+              2016-01-25
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/25/pygame-install/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/25/pygame-install/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>Pygame是一个利用SDL库写的游戏库,Pygame对应的Python版本为2.7（这个很重要）。</p>
+</blockquote>
+<h2 id="u5B89_u88C5"><a href="#u5B89_u88C5" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ brew install sdl sdl_image sdl_mixer sdl_ttf portmidi</span><br><span class="line">$ brew tap homebrew/headonly</span><br><span class="line">$ brew install smpeg --HEAD（这个不是必需的）</span><br><span class="line">$ sudo pip install hg+http://bitbucket.org/pygame/pygame</span><br></pre></td></tr></table></figure>
+<h2 id="u5B89_u88C5_u4E2D_u51FA_u73B0_u7684_u95EE_u9898"><a href="#u5B89_u88C5_u4E2D_u51FA_u73B0_u7684_u95EE_u9898" class="headerlink" title="安装中出现的问题"></a>安装中出现的问题</h2><h4 id="1_u3001Cannot_find_command__u2018hg_u2019"><a href="#1_u3001Cannot_find_command__u2018hg_u2019" class="headerlink" title="1、Cannot find command ‘hg’"></a>1、Cannot find command ‘hg’</h4><blockquote>
+<p>出现这个问题是因为系统不存在hg命令，需安装<a href="https://www.mercurial-scm.org" target="_blank" rel="external">Mercurial</a>。</p>
+</blockquote>
+<h4 id="2_u3001_u5F39_u51FA__u9700_u8981_u4E0B_u8F7Dx11_u7684_u5B89_u88C5_u5305__u7684_u63D0_u793A"><a href="#2_u3001_u5F39_u51FA__u9700_u8981_u4E0B_u8F7Dx11_u7684_u5B89_u88C5_u5305__u7684_u63D0_u793A" class="headerlink" title="2、弹出 需要下载x11的安装包 的提示"></a>2、弹出 需要下载x11的安装包 的提示</h4><blockquote>
+<p>根据提示点击继续，显示缺少x11安装包，需安装<a href="http://www.xquartz.org" target="_blank" rel="external">XQuartz</a>，XQuartz软件内附有x11安装包。安装完成后重启系统，然后再次执行上面的命令。</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/01/25/pip-install/" itemprop="url">
+                  Python包管理器pip安装
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2016-01-25T16:53:57+08:00" content="2016-01-25">
+              2016-01-25
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/25/pip-install/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/25/pip-install/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。安装方法：</p>
+</blockquote>
+<h2 id="u5B89_u88C5"><a href="#u5B89_u88C5" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py</span><br><span class="line">$ [sudo] python get-pip.py</span><br></pre></td></tr></table></figure>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/01/25/pip-install/#more" rel="contents">
+              閱讀全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/01/22/pyenv-pythons/" itemprop="url">
                   Python多版本管理－pyenv安装及使用
                 </a>
@@ -308,121 +542,6 @@
 </blockquote>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/22/pyenv-pythons/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/22/pip-install/" itemprop="url">
-                  Python包管理器pip安装
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">發表於</span>
-            <time itemprop="dateCreated" datetime="2016-01-22T17:52:41+08:00" content="2016-01-22">
-              2016-01-22
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/python/" itemprop="url" rel="index">
-                    <span itemprop="name">python</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/22/pip-install/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/22/pip-install/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。安装方法：</p>
-</blockquote>
-<h3 id="u65B9_u6CD5_u4E00_uFF1A_u811A_u6B65_u5B89_u88C5"><a href="#u65B9_u6CD5_u4E00_uFF1A_u811A_u6B65_u5B89_u88C5" class="headerlink" title="方法一：脚步安装"></a>方法一：脚步安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py</span><br><span class="line">$ [sudo] python get-pip.py</span><br></pre></td></tr></table></figure>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/01/22/pip-install/#more" rel="contents">
               閱讀全文 &raquo;
             </a>
           </div>
@@ -603,21 +722,21 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">文章</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">分類</span>
               </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">6</span>
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">標籤</span>
               </a>
           </div>
